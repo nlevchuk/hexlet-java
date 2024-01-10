@@ -14,10 +14,22 @@ java -classpath ./ io.hexlet.One
 java -classpath ../.. io.hexlet.One
 ```
 
+* JAR file
+
+```
+java -jar build.jar
+```
+
 ### Compile
 
 * To a directory
 
 ```
 javac One.java Two.java -d build
+```
+
+### Packaging
+
+```
+jar -cvfm build.jar manifest.MF .
 ```
