@@ -13,3 +13,11 @@ java -classpath ./ io.hexlet.One
 ```
 java -classpath ../.. io.hexlet.One
 ```
+
+### Compile
+
+* To a directory
+
+```
+javac One.java Two.java -d build
+```
